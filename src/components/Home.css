@@ -1,0 +1,110 @@
+.contenedor-home {
+  width: 100%;
+}
+
+.seccion-hotel {
+  padding: 80px 20px;
+  background-color: #fdfbf7; /* Blanco crema elegante */
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.tarjeta-elegante {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tarjeta-elegante h2 {
+  color: #1a252c;
+  font-size: 32px;
+  font-family: 'Georgia', serif; /* Letra más clásica y elegante */
+}
+
+.tarjeta-elegante p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.servicios {
+  margin: 25px 0 40px 0;
+  color: #c5a880; /* Dorado */
+  font-weight: bold;
+}
+
+.seccion-reservas {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.seccion-reservas h2 {
+  color: #1a252c;
+  font-size: 28px;
+  font-family: 'Georgia', serif;
+  margin-bottom: 40px;
+}
+
+.grilla-habitaciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.tarjeta-habitacion {
+  background-color: white;
+  padding: 35px 20px;
+  width: 260px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.03);
+  transition: transform 0.3s;
+}
+
+.tarjeta-habitacion:hover {
+  transform: translateY(-5px); /* Efecto que levanta la tarjeta */
+}
+
+.tarjeta-habitacion h3 {
+  color: #1a252c;
+  margin-top: 0;
+}
+
+.linea-decorativa {
+  height: 2px;
+  width: 40px;
+  background-color: #c5a880;
+  margin: 15px auto;
+}
+
+.tarjeta-habitacion p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.seccion-hotel {
+  padding: 120px 20px; /* Agrandamos un poco el espacio para que se vea la foto */
+  background-image: url('../../public/img/portada.jpg'); /* Conecta la imagen */
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Modificamos la tarjeta para que el texto se lea sobre la foto */
+.tarjeta-elegante {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.img-habitacion {
+  width: 100%; /* Ocupa el ancho total de la tarjeta */
+  height: 180px; /* Fija una altura para que todas queden parejas */
+  object-fit: cover; /* Recorta la imagen sin deformarla */
+  border-radius: 4px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,34 @@
+.encabezado-hotel {
+  background-color: #1a252c; /* Azul Marino muy oscuro */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #c5a880; /* Línea dorada */
+}
+
+.logo-hotel h2 {
+  color: white;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.navegacion-hotel {
+  display: flex;
+  gap: 30px;
+}
+
+.navegacion-hotel a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.navegacion-hotel a:hover {
+  color: #c5a880; /* Hover dorado */
+}
